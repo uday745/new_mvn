@@ -5,9 +5,7 @@
     <artifactId>DEVOPS</artifactId>
     <version>1.0</version>
     <packaging>ear</packaging>
-    <build>
-  <finalName>Mybuild-${maven.build.timestamp}</finalName>
-   </build>
+    <finalName>Mybuild-${maven.build.timestamp}</finalName>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
