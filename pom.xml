@@ -5,12 +5,7 @@
     <artifactId>DEVOPS</artifactId>
     <version>1.0</version>
     <packaging>ear</packaging>
-    <configuration>
-      <name>current.time</name>
-      <pattern>yyyyMMdd-HHmmss</pattern>
-      <timeZone>GMT-5</timeZone>
-     </configuration>
-    <name>myproject.${current.time}</name>
+    <name>myproject.${maven.build.timestamp}</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
