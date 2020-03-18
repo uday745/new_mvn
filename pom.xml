@@ -6,12 +6,10 @@
     <version>1.0</version>
     <packaging>ear</packaging>
     <name>Mybuild</name>
-<properties>
-   <timestamp>${maven.build.timestamp}</timestamp>
-   <maven.build.timestamp.format>yyyyMMdd.HHmm</maven.build.timestamp.format>
-</properties>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <timestamp>${maven.build.timestamp}</timestamp>
+       <maven.build.timestamp.format>yyyyMMdd.HHmm</maven.build.timestamp.format>
     </properties>
     <dependencies>
         <dependency>
