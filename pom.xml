@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>SATHYA</groupId>
     <artifactId>sss</artifactId>
-    <version>${time}</version>
+    <version>${timestamp}</version>
     <packaging>ear</packaging>
     <name>Mybuild</name>
     <properties>
