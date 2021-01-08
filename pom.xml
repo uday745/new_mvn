@@ -4,7 +4,7 @@
     <groupId>SATHYA</groupId>
     <artifactId>sss</artifactId>
     <version>2.0</version>
-    <packaging>ear</packaging>
+    <packaging>war</packaging>
     <name>Mybuild</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -44,7 +44,7 @@
         </snapshotRepository>
     </distributionManagement>
     <build>
-    	<finalName>myproj.${timestamp}</finalName>
+    	<finalName>Sample.${timestamp}</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
