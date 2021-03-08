@@ -1,3 +1,3 @@
 # maven
 new java code added
-good day
+Happy nice day
