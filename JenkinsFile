@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+    
+    tools {
+        maven "maven"
+    }
+    stages{
+        stage("clone the code"){
+            steps{
+                script{
+                    git 'https://github.com/uday745/new_mvn.git'
+                }
+            }
+        }
+        stage("build the code"){
+            steps{
+                script{
+                    sh "mvn clean install"
+                }
+            }
+        }
+        stage("sonar report"){
+            steps{
+                script{
+                    withSonarQubeEnv(credentialsId: 'sonar-key') {
+                           sh "mvn sonar:sonar"
+                        }
+                }
+            }
+        }
+        
+    }
+}
